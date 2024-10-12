@@ -1,0 +1,24 @@
+#button {
+    height: 20px;
+    width: 80px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: aliceblue;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+
+#button:hover {
+    height: 25px;
+    width: 85px;
+    border: 1px solid red;
+}
+
+#button:active {
+    height: 25px;
+    width: 85px;
+    border: 1px solid red;
+    background-color: greenyellow;
+}
