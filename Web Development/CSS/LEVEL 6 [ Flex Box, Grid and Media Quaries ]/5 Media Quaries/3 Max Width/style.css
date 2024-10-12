@@ -1,0 +1,12 @@
+.box {
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+@media screen and ( max-width : 300px ) {
+    .box {
+        background-color: aqua;
+    }
+}

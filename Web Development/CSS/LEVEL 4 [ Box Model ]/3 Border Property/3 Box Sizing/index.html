@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    <style>
+        * { margin: 0; padding: 0; }
+        button {
+            margin-top: 100px;
+            height: 100px; width: 100px;
+            border: 4px solid black;
+            background-color: aquamarine;
+        }
+
+        #b1 { box-sizing: border-box; }
+        #b2 { box-sizing: content-box; }
+    </style>
+</head>
+<body>
+    <button id="b1">Click me</button>
+    <button id="b2">Click me</button>
+</body>
+</html>
